@@ -5,7 +5,7 @@ from torch.nn import functional as F
 
 class ResidualBlock(nn.Module):
     '''
-    實現子Module: Residule Block
+    實現子Module: Residual Block
     '''
 
     def __init__(self, inchannel, outchannel, stride=1, shortcut=None):
